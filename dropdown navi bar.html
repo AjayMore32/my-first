@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 20px;
+                padding: 10px;
+                overflow: hidden;
+                background-color: aqua;
+            }
+            li{
+                float: left;
+                font-size: 30px;
+            }
+            li a .dropbtn{
+                display:inline-block;
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover .dropdown:hover .dropbtn{
+                background-color: rgb(242, 105, 235);
+            }
+            li.dropdown{
+                display: inline-block;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: rgb(192, 240, 94);
+            }
+            .dropdown-content a{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display:block ;
+                text-align: center;
+            }
+            .dropdown-content a{
+                background-color: rgb(241, 20, 160);
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+            input{
+                float: right;
+                padding: 10px;
+                width: 200px;
+                margin: 20px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#news">news</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">course</a>
+                <div class="dropdown-content">
+                    <a href="#">cpp</a>
+                    <a href="#">java</a>
+                    <a href="#">tally</a>
+                    <a href="#">ms cit</a>
+                    <a href="#">web</a>
+                </div>
+            </li>
+            <div>
+                <input type="text"placehlder="search">
+            </div>
+        </ul>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deserunt doloribus nemo numquam quae consequatur excepturi dolore, eaque tempora quam, aspernatur, ullam obcaecati qui labore. Earum laborum amet sequi ex.</h1>
+    </body>
+</html>
